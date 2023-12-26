@@ -2,6 +2,7 @@
 import styles from './page.module.css'
 import { Suspense } from 'react';
 import PokemonList from '@/components/pokemon-list';
+
 export default function Home({ searchParams } : any) {
   return (
     <main className={styles.main}>
